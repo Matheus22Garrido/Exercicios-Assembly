@@ -1,0 +1,9 @@
+.data
+.text
+    msg1: 
+    msg2:
+    msg3:
+    msg4:
+    msg5:
+
+    
