@@ -15,22 +15,25 @@ main:
     la $a0, msg1 
     syscall
 
+    # salva o primeiro valor recebido no registrador
     li $v0, 5
     syscall
-
     add $t0, $v0, 0
 
+    # lê a area do segundo lado
     li $v0, 4
     la $a0, msg2
     syscall 
 
+    # salva o segundo valor recebido no outro registrador
     li $v0, 5
     syscall
-
     add $t1, $v0, 0
 
+    # multiplica os lados
     mul $t2, $t1, $t0
 
+    # mostra o resultado
     li $v0, 4
     la $a0, msg3
     syscall
