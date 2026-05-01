@@ -7,3 +7,5 @@
     msg6: .asciiz "\n"
 .text
 main:
+asgyvdas
+asdasd
